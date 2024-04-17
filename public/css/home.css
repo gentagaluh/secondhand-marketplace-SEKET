@@ -1,0 +1,31 @@
+body{
+    background-color: #EBEAE8;
+}
+table {
+    border-collapse: collapse;
+
+  }
+
+  td {
+    padding: 8px;
+    text-align: center;
+  }
+
+  .decorated-row {
+    background-color: yellow;
+    border-radius: 100px;
+    width: 10px; /* Atur lebar maksimum */
+    white-space: nowrap; /* Hindari teks pindah ke baris baru */
+    overflow: hidden; /* Sembunyikan teks yang melebihi batas */
+    text-overflow: ellipsis; /* Tampilkan tanda ellipsis (tiga titik) untuk teks yang terpotong */
+    border: 1px solid black;
+    padding: 5px;
+  }
+
+  .nama_produk{
+    background-color: rebeccapurple
+  }
+
+  .ellipsis {
+    
+  }
